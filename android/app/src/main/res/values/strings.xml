@@ -55,7 +55,6 @@
     <string name="title_automatic">Automatic</string>
     <string name="title_none">None</string>
 
-
     <string name="hint_urlbar">Connect to a Server</string>
     <string name="hint_server_name">Name (e.g. Work PC)</string>
     <string name="hint_host">Host</string>
@@ -103,7 +102,7 @@
     <string name="desc_save_discovered_server_btn">Save</string>
     <string name="desc_discovery_btn">Discover servers</string>
     <string name="desc_discovery_stop_btn">Stop discovering servers</string>
-    <string name="desc_discovery_running">Discovering servers on you network</string>
+    <string name="desc_discovery_running">Discovering servers on your network</string>
     <string name="desc_keyboard_btn">Open keyboard</string>
     <string name="desc_virtual_keys_btn">Show virtual keys</string>
     <string name="desc_zoom_options_btn">Zoom options</string>
@@ -216,19 +215,12 @@
     <string name="pref_touch_test">Touch test</string>
     <string name="pref_key_test">Key test</string>
 
-    <string name="app_name">小小电脑-Termux X11页面</string>
-
-    <string name="not_connected">未连接</string>
-    <string name="preferences_button_text">   Termux X11偏好设置   </string>
-    <string name="help_button_text">   Termux X11帮助   </string>
-    <string name="exit_button_text">   返回终端   </string>
-    <string name="extra_keys_config_desc">Here you can set value of extra-keys variable like in Termux app (read <a href="http://wiki.termux.com/wiki/Touch_Keyboard#Extra_Keys_Row">this</a>) and more \n
-E.g. <b>META</b> for <i>META key</i>, \n
-<b>KEYBOARD</b> for <i>soft keyboard toggling key</i>, \n
-<b>PREFERENCES</b> for <i>preferences opening key</i>, \n
-<b>MOUSE_HELPER</b> for <i>mouse helper toggling key</i>, \n
-<b>STYLUS_HELPER</b> for <i>stylus click override overlay toggling key</i>, \n
-<b>EXIT</b> for <i>application exit key</i>.</string>
+    <string name="app_name">Tiny Computer-Termux X11 Page</string>
+    <string name="not_connected">Not connected</string>
+    <string name="preferences_button_text">   Termux X11 Preferences   </string>
+    <string name="help_button_text">   Termux X11 Help   </string>
+    <string name="exit_button_text">   Return to Terminal   </string>
+    <string name="extra_keys_config_desc">You can set the value of the extra-keys variable here, just like in the Termux app (see <a href="http://wiki.termux.com/wiki/Touch_Keyboard#Extra_Keys_Row">here</a>), and more. \nE.g. <b>META</b> for <i>META key</i>, \n<b>KEYBOARD</b> for <i>soft keyboard toggling key</i>, \n<b>PREFERENCES</b> for <i>preferences opening key</i>, \n<b>MOUSE_HELPER</b> for <i>mouse helper toggling key</i>, \n<b>STYLUS_HELPER</b> for <i>stylus click override overlay toggling key</i>, \n<b>EXIT</b> for <i>application exit key</i>.</string>
     <string name="notification_content_text">Pull down to show options</string>
     <string name="notification_open_preferences">Preferences</string>
     <string name="notification_exit">Exit</string>
@@ -238,7 +230,7 @@ E.g. <b>META</b> for <i>META key</i>, \n
     <string name="notification_release_pointer_and_keyboard_capture">Release captures</string>
     <string name="notification_toggle_fullscreen">Toggle fullscreen</string>
 
-    <string name="pref_main">Preferences</string>
+    <string name="pref_main">Termux X11 Preferences</string>
     <string name="pref_output">Output</string>
     <string name="pref_pointer">Pointer</string>
     <string name="pref_kbd">Keyboard</string>
@@ -249,14 +241,13 @@ E.g. <b>META</b> for <i>META key</i>, \n
     <string name="pref_displayResolutionMode">Display resolution mode</string>
     <string name="pref_displayScale">Display scale, %</string>
     <string name="pref_displayResolutionExact">Display resolution</string>
-    <string name="pref_displayResolutionCustom">Display resolution</string>
+    <string name="pref_displayResolutionCustom">Custom display resolution</string>
     <string name="pref_adjustResolution">Adjust the set resolution to fit screen orientation</string>
     <string name="pref_displayStretch">Stretch to fit display</string>
     <string name="pref_Reseed">Reseed screen while soft keyboard is open</string>
     <string name="pref_Reseed_summary">The screen size will be adjusted while Soft Keyboard is open.</string>
     <string name="pref_PIP">PIP mode</string>
     <string name="pref_PIP_summary">Show app in picture-in-picture mode when home button or recents button is pressed</string>
-    <!-- <string name="pref_fullscreen">Fullscreen</string> -->
     <string name="pref_fullscreen_summary">Toggle immersive mode in your device display</string>
     <string name="pref_forceOrientation">Screen orientation</string>
     <string name="pref_hideCutout">Hide display cutout (if any)</string>

@@ -71,7 +71,7 @@ class MyApp extends StatelessWidget {
 }
 
 
-//限制最大宽高比1:1
+//Limit maximum aspect ratio to 1:1
 //Limit maximum aspect ratio to 1:1
 class AspectRatioMax1To1 extends StatelessWidget {
   final Widget child;
@@ -417,7 +417,7 @@ Some software may have display problems or display speed may slow down."""),
         headerBuilder: ((context, isExpanded) {
           return const ListTile(title: Text("Camera Streaming"), subtitle: Text("Experimental feature"));
         }), body: Padding(padding: const EdgeInsets.all(12), child: Column(children: [
-          const Text("After successfully starting the stream, you can click the shortcut command \"Test Stream Pull\" and go to the graphical interface to see the effect.\nNote that this does not create a virtual camera for the system;\nIn addition, using the camera is a high power consumption behavior and should be turned off in time when not in use."),
+          const Text("After successfully starting the stream, you can click the shortcut command \"Test Stream\" and go to the graphical interface to see the effect.\nNote that this does not create a virtual camera for the system;\nIn addition, using the camera is a high power consumption behavior and should be turned off in time when not in use."),
           const SizedBox.square(dimension: 16),
           Wrap(alignment: WrapAlignment.center, spacing: 4.0, runSpacing: 4.0, children: [
             OutlinedButton(style: D.commandButtonStyle, child: const Text("Request Camera Permission"), onPressed: () {
@@ -635,7 +635,7 @@ Snapdragon 870 12GB: About 10 seconds
           const SizedBox.square(dimension: 16),
           const Text("The following options will take effect the next time the software is started."),
           const SizedBox.square(dimension: 8),
-          SwitchListTile(title: const Text("Switch system to Japanese"), subtitle: const Text("Switch system to Japanese"), value: Util.getGlobal("isJpEnabled") as bool, onChanged:(value) async {
+          SwitchListTile(title: const Text("Switch system to Japanese locale"), subtitle: const Text("May fix garbled characters in some Japanese games"), value: Util.getGlobal("isJpEnabled") as bool, onChanged:(value) async {
             if (value) {
                 Util.termWrite("sudo localedef -c -i ja_JP -f UTF-8 ja_JP.UTF-8");
                 G.pageIndex.value = 0;
@@ -1287,7 +1287,7 @@ class _FastCommandsState extends State<FastCommands> {
         String name = "";
         String command = "";
         showDialog(context: context, builder: (context) {
-          return AlertDialog(title: const Text("Edit Command"), content: SingleChildScrollView(child: Column(children: [
+          return AlertDialog(title: const Text("Add Command"), content: SingleChildScrollView(child: Column(children: [
             TextFormField(initialValue: name, decoration: const InputDecoration(border: OutlineInputBorder(), labelText: "Command Name"), onChanged: (value) {
               name = value;
             }),
@@ -1341,6 +1341,8 @@ class _MyHomePageState extends State<MyHomePage> {
 
   //Is installation complete?
   //Switch from loading interface to main interface after completion
+  // Is installation complete?
+  // Switch from loading interface to main interface after completion
   bool isLoadingComplete = false;
 
   @override
